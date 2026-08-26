@@ -79,7 +79,7 @@ export default function ActionDemo() {
 
             <p className="mt-6 max-w-[520px] text-[17px] leading-[1.6] tracking-[-0.02em] text-black/50 md:text-[19px]">
               Search across calls, notes, and decisions in plain English.
-              FlowVoice answers with sources, owners, and the next move.
+              Mumbl answers with sources, owners, and the next move.
             </p>
 
             <div className="mt-9 grid max-w-[520px] grid-cols-2 gap-3">
@@ -102,7 +102,7 @@ export default function ActionDemo() {
                 </div>
 
                 <div className="rounded-full border border-black/[0.055] bg-white/72 px-3 py-1.5 text-[11px] font-semibold text-black/40 shadow-sm backdrop-blur-xl">
-                  FlowVoice memory
+                  Mumbl memory
                 </div>
               </div>
 
@@ -210,7 +210,7 @@ function ListeningState() {
 
         <div className="rounded-[22px] bg-[#f6f3ec] p-5">
           <p className="mb-3 text-[12px] font-medium text-black/34">
-            Ask FlowVoice
+            Ask Mumbl
           </p>
           <p className="min-h-[72px] text-[25px] font-semibold leading-[1.18] tracking-[-0.045em] md:text-[32px]">
             <TypingText text="What is blocking the customer launch this week?" />

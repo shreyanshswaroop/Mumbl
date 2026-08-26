@@ -78,7 +78,7 @@ export default function MacVoiceDemo() {
           </h2>
 
           <p className="mt-6 max-w-[560px] text-[17px] leading-[1.6] tracking-[-0.02em] text-black/50 md:text-[19px]">
-            FlowVoice is built for teams who discuss customers, hiring,
+            Mumbl is built for teams who discuss customers, hiring,
             revenue, and strategy on calls. Clear permissions and deletions are
             part of the product, not an afterthought.
           </p>
@@ -111,7 +111,7 @@ export default function MacVoiceDemo() {
               </div>
 
               <div className="text-[12px] font-medium text-black/32">
-                FlowVoice Admin
+                Mumbl Admin
               </div>
             </div>
 

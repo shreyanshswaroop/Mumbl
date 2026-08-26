@@ -1,10 +1,28 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
-export default function AboutPageClient() {
+const helpTopics = [
+  {
+    title: "Getting started",
+    description:
+      "Set up Mumbl, connect your meetings, and learn the basics of capturing reliable notes.",
+  },
+  {
+    title: "Meeting notes",
+    description:
+      "Understand summaries, speaker labels, action items, and ways to keep follow-ups moving.",
+  },
+  {
+    title: "Account support",
+    description:
+      "Manage sign-in, workspace settings, privacy preferences, and team access.",
+  },
+];
+
+export default function HelpCenterPageClient() {
   return (
     <main className="min-h-screen overflow-hidden bg-[#fdfcf9] text-[#111111]">
       <Navbar />
@@ -31,7 +49,7 @@ export default function AboutPageClient() {
               transition={{ duration: 0.55, delay: 0.1 }}
               className="mb-5 text-[13px] font-semibold uppercase tracking-[0.16em] text-black/42"
             >
-              About Mumbl
+              Help Center
             </motion.p>
 
             <motion.h1
@@ -40,7 +58,7 @@ export default function AboutPageClient() {
               transition={{ duration: 0.7, delay: 0.18 }}
               className="text-[38px] font-medium leading-[1.05] tracking-[-0.055em] md:text-[58px]"
             >
-              We are building memory for the way teams actually talk.
+              Answers for teams turning conversations into action.
             </motion.h1>
 
             <motion.p
@@ -49,10 +67,9 @@ export default function AboutPageClient() {
               transition={{ duration: 0.65, delay: 0.3 }}
               className="mx-auto mt-7 max-w-[610px] text-[16px] font-medium leading-[1.6] tracking-[-0.02em] text-black/56 md:text-[18px]"
             >
-              Mumbl turns real conversations into reliable meeting notes,
-              summaries, and follow-ups. It remembers who said what, keeps the
-              important context, and helps teams move from discussion to action
-              without another round of cleanup.
+              Find setup guidance, meeting workflow tips, and account support
+              for Mumbl. Everything here is designed to help you capture
+              trusted notes and follow-ups without slowing down the team.
             </motion.p>
           </div>
         </div>
@@ -68,24 +85,27 @@ export default function AboutPageClient() {
         >
           <div>
             <p className="text-[14px] font-medium text-black/38">
-              Why we exist
+              Browse support
             </p>
             <h2 className="mt-4 max-w-[430px] text-[36px] font-semibold leading-[1.04] tracking-[-0.05em] md:text-[50px]">
-              Work starts in conversation. The record should be trustworthy.
+              Start with the topics teams ask about most.
             </h2>
           </div>
 
-          <div className="space-y-6 text-[17px] font-medium leading-[1.65] tracking-[-0.02em] text-black/58 md:text-[18px]">
-            <p>
-              Teams make decisions in calls, quick syncs, interviews, customer
-              conversations, and side discussions. Too often, the important part
-              disappears into a transcript nobody wants to read.
-            </p>
-            <p>
-              Mumbl is designed to make that record useful from the start:
-              speaker-aware, searchable, private by design, and ready for the
-              tools where work already happens.
-            </p>
+          <div className="grid gap-5 md:grid-cols-3 lg:grid-cols-1">
+            {helpTopics.map((topic) => (
+              <article
+                key={topic.title}
+                className="border-t border-black/[0.08] pt-5 first:border-t-0 first:pt-0 md:first:border-t md:first:pt-5 lg:first:border-t-0 lg:first:pt-0"
+              >
+                <h3 className="text-[20px] font-semibold leading-[1.15] tracking-[-0.035em] text-black/82">
+                  {topic.title}
+                </h3>
+                <p className="mt-3 text-[16px] font-medium leading-[1.6] tracking-[-0.02em] text-black/55">
+                  {topic.description}
+                </p>
+              </article>
+            ))}
           </div>
         </motion.div>
       </section>

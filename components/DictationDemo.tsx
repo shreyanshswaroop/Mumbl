@@ -12,7 +12,7 @@ const benefits = [
   {
     icon: "record",
     title: "Starts automatically",
-    text: "FlowVoice joins, records, and catches side calls that never made it to your calendar.",
+    text: "Mumbl joins, records, and catches side calls that never made it to your calendar.",
   },
   {
     icon: "meet",
@@ -70,7 +70,7 @@ export default function DictationDemo() {
             transition={{ duration: 0.55 }}
             className="text-[13px] font-semibold uppercase tracking-[0.16em] text-black/42"
           >
-            FlowVoice notetaker
+            Mumbl notetaker
           </motion.p>
 
           <motion.h2
@@ -93,7 +93,7 @@ export default function DictationDemo() {
             transition={{ duration: 0.6, delay: 0.12 }}
             className="mx-auto mt-7 max-w-[620px] text-[17px] font-medium leading-[1.58] text-black/50 md:text-[19px]"
           >
-            FlowVoice captures the conversation, knows the speaker, and turns
+            Mumbl captures the conversation, knows the speaker, and turns
             raw discussion into the summary, decisions, and follow-ups your team
             can trust.
           </motion.p>
@@ -123,7 +123,7 @@ export default function DictationDemo() {
           ))}
         </div>
 
-        <FlowVoiceCanvas />
+        <MumblCanvas />
       </div>
     </section>
   );
@@ -257,7 +257,7 @@ function AiDoodle() {
   );
 }
 
-function FlowVoiceCanvas() {
+function MumblCanvas() {
   return (
     <motion.div
       initial={{ opacity: 0, y: 28 }}
@@ -290,7 +290,7 @@ function FlowVoiceCanvas() {
               Your meeting lands in one calm place.
             </h3>
             <p className="mt-6 max-w-[430px] text-[17px] font-medium leading-[1.55] text-black/56">
-              FlowVoice does not give you another recording to babysit. It
+              Mumbl does not give you another recording to babysit. It
               catches the conversation, extracts the useful bits, and keeps the
               exact quote close by.
             </p>
@@ -531,7 +531,7 @@ function WindowChrome() {
       </div>
       <div className="flex items-center gap-2 rounded-full bg-[#f4f2ec] px-3 py-1 text-[11px] font-semibold text-black/42">
         <Sparkles size={12} />
-        FlowVoice
+        Mumbl
       </div>
     </div>
   );

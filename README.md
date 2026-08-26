@@ -1,10 +1,10 @@
-# Flow-Voice
+# Mumbl
 
-Flow-Voice is a modern landing page for FlowVoice, an AI meeting memory product that captures conversations, understands speaker context, and turns meetings into reliable notes, summaries, answers, and action items.
+Mumbl is a modern landing page for Mumbl, an AI meeting memory product that captures conversations, understands speaker context, and turns meetings into reliable notes, summaries, answers, and action items.
 
-The site presents FlowVoice as a tool for teams that want their meetings to become searchable, actionable knowledge instead of forgotten transcripts.
+The site presents Mumbl as a tool for teams that want their meetings to become searchable, actionable knowledge instead of forgotten transcripts.
 
-## What FlowVoice Does
+## What Mumbl Does
 
 - Captures meetings and quick conversations automatically
 - Creates speaker-aware transcripts and readable summaries
@@ -15,12 +15,12 @@ The site presents FlowVoice as a tool for teams that want their meetings to beco
 
 ## Pages and Sections
 
-- Home hero introducing FlowVoice as an AI meeting memory
+- Home hero introducing Mumbl as an AI meeting memory
 - Notetaker demo showing meeting capture and summaries
 - Search demo for asking questions across meeting history
 - Context demo for transcripts, summaries, action items, and sharing
 - Security section focused on privacy and team controls
-- About page explaining the mission behind FlowVoice
+- About page explaining the mission behind Mumbl
 
 ## Tech Stack
 

@@ -10,7 +10,7 @@ const columns = [
   },
   {
     title: "Platform",
-    links: ["FlowVoice AI", "Personal vocabulary", "App context"],
+    links: ["Mumbl AI", "Personal vocabulary", "App context"],
   },
   {
     title: "Industries",
@@ -68,7 +68,7 @@ export default function Footer() {
 
         <div className="mt-auto flex flex-col gap-5 pt-24 text-[14px] font-medium text-white/72 md:flex-row md:items-center md:justify-between md:pt-16">
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
-            <span>© FlowVoice 2026</span>
+            <span>© Mumbl 2026</span>
             <a href="#" className="transition duration-200 hover:text-white">
               Privacy Policy
             </a>
@@ -78,7 +78,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap items-center gap-4 text-white">
-            <span className="text-white/86">Get an AI summary of FlowVoice.</span>
+            <span className="text-white/86">Get an AI summary of Mumbl.</span>
         
             <a
               href="#"

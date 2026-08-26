@@ -50,7 +50,7 @@ export default function Hero() {
           }}
           className="mt-7 max-w-[500px] text-[14px] font-medium leading-[1.55] tracking-[0.02em] text-black/38 md:text-[16px]"
         >
-          FlowVoice captures every conversation, remembers who said what, and
+          Mumbl captures every conversation, remembers who said what, and
           turns meetings into summaries, answers, and action items.
         </motion.p>
 
@@ -64,7 +64,7 @@ export default function Hero() {
           className="relative mt-8 flex flex-col items-center"
         >
           <div className="absolute -left-[128px] -top-10 hidden rotate-[-7deg] text-[22px] font-medium leading-none text-[#38c95a] md:block handwritten">
-            Try FlowVoice
+            Try Mumbl
             <br />
             free in beta
           </div>

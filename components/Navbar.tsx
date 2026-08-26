@@ -37,7 +37,7 @@ export default function Navbar() {
             className="h-11 w-11 rounded-[10px] object-contain"
             priority
           />
-          FlowVoice
+          Mumbl
         </Link>
 
         <div className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-7 md:flex">
@@ -67,6 +67,13 @@ export default function Navbar() {
             className="text-[14px] font-medium text-black/38 transition hover:text-black"
           >
             About
+          </Link>
+
+          <Link
+            href="/help-center"
+            className="text-[14px] font-medium text-black/38 transition hover:text-black"
+          >
+            Help Center
           </Link>
         </div>
 

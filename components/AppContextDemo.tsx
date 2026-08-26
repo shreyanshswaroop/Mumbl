@@ -118,7 +118,7 @@ export default function AppContextDemo() {
                 </div>
 
                 <div className="rounded-full border border-black/[0.055] bg-white/72 px-3 py-1.5 text-[11px] font-semibold text-black/40 shadow-sm backdrop-blur-xl">
-                  FlowVoice workspace
+                  Mumbl workspace
                 </div>
               </div>
 
