@@ -76,10 +76,6 @@ export default function Navbar() {
             Help Center
           </Link>
         </div>
-
-        <button className="rounded-full border border-black/[0.08] bg-white/70 px-5 py-2.5 text-[14px] font-medium text-black/64 shadow-sm backdrop-blur-xl transition duration-200 hover:bg-white hover:text-black active:scale-[0.98]">
-          Sign in
-        </button>
       </nav>
     </header>
   );

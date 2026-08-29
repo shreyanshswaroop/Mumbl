@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -89,10 +90,13 @@ export default function Hero() {
             />
           </svg>
 
-          <button className="flex h-[49px] items-center gap-2.5 rounded-full bg-black px-6 text-[15px] font-medium tracking-[0.01em] text-white shadow-[0_14px_26px_rgba(0,0,0,0.16)] transition duration-200 hover:scale-[1.025] active:scale-[0.98]">
-            Get stared 
+          <Link
+            href="/download"
+            className="flex h-[49px] items-center gap-2.5 rounded-full bg-black px-6 text-[15px] font-medium tracking-[0.01em] text-white shadow-[0_14px_26px_rgba(0,0,0,0.16)] transition duration-200 hover:scale-[1.025] active:scale-[0.98]"
+          >
+            Get started
             <ChevronRight size={19} strokeWidth={2.2} />
-          </button>
+          </Link>
 
           <span className="mt-2.5 text-[11px] font-medium text-black/28">
             Works with Mac and iphone
